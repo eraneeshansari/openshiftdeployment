@@ -1,5 +1,5 @@
 FROM golang:latest
-
+RUN whoami
 RUN mkdir /app
 
 ADD . /app
